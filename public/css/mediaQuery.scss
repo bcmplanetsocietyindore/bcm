@@ -216,6 +216,12 @@ $desktop: 1200px;
     table {
       display: block;
     }
+    .bcm-table-responsive {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
     /*----------------- Login Page ---------------------------*/
 .bcm_login{
   .login-options{
@@ -408,6 +414,12 @@ $desktop: 1200px;
     }
     table {
       display: block;
+    }
+    .bcm-table-responsive {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
     .bcm_login{
       .login-options{
@@ -644,6 +656,12 @@ $desktop: 1200px;
     .our-amenities-section{
       margin-bottom:0rem;
     }
+    .bcm-table-responsive {
+      display: inline-table;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
   }
   @include laptop {
     /*-----------Navbar-------------*/
@@ -855,6 +873,12 @@ $desktop: 1200px;
     }
     table {
       display: inline-table;
+  }
+  .bcm-table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
     .bcm_login{
       .login-options{
@@ -1092,6 +1116,12 @@ $desktop: 1200px;
     }
     table {
       display: inline-table;
+  }
+  .bcm-table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
     .bcm_login{
       .login-options{
