@@ -186,11 +186,9 @@ $desktop: 1200px;
           padding: 10px;
           .team-details {
             h4 {
-              //font-size: 14px;
               margin: 0 0 4px;
             }
             span {
-              //font-size: 9px;
             }
           }
         }
@@ -250,8 +248,6 @@ $desktop: 1200px;
     padding-top: 1rem;
     li{
       a{
-    //      text-align:center;
-		//  justify-content:center;
       }
     }
   }
@@ -411,7 +407,6 @@ $desktop: 1200px;
               margin: 0 0 4px;
             }
             span {
-              //font-size: 9px;
             }
           }
         }
@@ -576,7 +571,7 @@ $desktop: 1200px;
         }
       }
       .show-events {
-        min-height: 50rem;
+        min-height: 100vh;
         margin-top: 2rem;
       }
     }
