@@ -90,6 +90,9 @@ $desktop: 1200px;
             h1 {
               font-size: 25px;
             }
+            h2 {
+              font-size: 1.5rem;
+          }
             h3 {
               font-size: 18px;
             }
@@ -140,6 +143,11 @@ $desktop: 1200px;
               .play-btn{
                 left: calc(50% - 3rem);
                 top: calc(50% - 3rem);
+              }
+            }
+            .about-section-title{
+              h2:after {
+                left: 61%;
               }
             }
           }
@@ -290,6 +298,9 @@ $desktop: 1200px;
             h1 {
               font-size: 25px;
             }
+            h2 {
+              font-size: 1.5rem;
+          }
             h3 {
               font-size: 18px;
             }
@@ -340,6 +351,11 @@ $desktop: 1200px;
               .play-btn{
                 left: calc(50% - 3rem);
                 top: calc(50% - 3rem);
+              }
+            }
+            .about-section-title{
+              h2:after {
+                left: 61%;
               }
             }
           }
