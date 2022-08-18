@@ -87,15 +87,6 @@ $desktop: 1200px;
       .carousel-inner {
         .carousel-item {
           .carousel-caption {
-            h1 {
-              font-size: 25px;
-            }
-            h2 {
-              font-size: 1.5rem;
-          }
-            h3 {
-              font-size: 18px;
-            }
             p {
               a {
                 padding: 10px 25px;
@@ -147,9 +138,6 @@ $desktop: 1200px;
             }
             .d-flex{
               .about-section-title{
-                h2{
-                  font-size: 1.75rem;
-                }
                 h2:after {
                   left: 61%;
                 }
@@ -193,11 +181,11 @@ $desktop: 1200px;
           padding: 10px;
           .team-details {
             h4 {
-              font-size: 14px;
+              //font-size: 14px;
               margin: 0 0 4px;
             }
             span {
-              font-size: 9px;
+              //font-size: 9px;
             }
           }
         }
@@ -234,6 +222,18 @@ $desktop: 1200px;
       width: 100%;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    h2 {
+      font-size: 1.75rem;
+  }
+    h3 {
+      font-size: 1.5rem;
+    }
+    h4, p, span {
+      font-size: 1rem;
     }
     /*----------------- Login Page ---------------------------*/
 .bcm_login{
@@ -298,17 +298,8 @@ $desktop: 1200px;
     /*----------Home Slider--------------*/
     .carousel {
       .carousel-inner {
-        .item {
+        .carousel-item {
           .carousel-caption {
-            h1 {
-              font-size: 25px;
-            }
-            h2 {
-              font-size: 1.5rem;
-          }
-            h3 {
-              font-size: 18px;
-            }
             p {
               a {
                 padding: 10px 25px;
@@ -407,11 +398,10 @@ $desktop: 1200px;
           padding: 10px;
           .team-details {
             h4 {
-              font-size: 14px;
               margin: 0 0 4px;
             }
             span {
-              font-size: 9px;
+              //font-size: 9px;
             }
           }
         }
@@ -446,6 +436,18 @@ $desktop: 1200px;
       width: 100%;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    h2 {
+      font-size: 1.75rem;
+  }
+    h3 {
+      font-size: 1.5rem;
+    }
+    h4 {
+      font-size: 1rem;
     }
     .bcm_login{
       .login-options{
@@ -673,6 +675,18 @@ $desktop: 1200px;
     }
     table {
       display: inline-table;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+}
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4,p,span {
+    font-size: 1.25rem;
   }
     .bcm_login{
       .login-options{
@@ -919,6 +933,18 @@ $desktop: 1200px;
     }
     table {
       display: inline-table;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+}
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4,p,span {
+    font-size: 1.25rem;
   }
   .bcm-table-responsive {
     display: block;
@@ -1172,6 +1198,18 @@ $desktop: 1200px;
     }
     table {
       display: inline-table;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+}
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4,p,span {
+    font-size: 1.25rem;
   }
   .bcm-table-responsive {
     display: block;
