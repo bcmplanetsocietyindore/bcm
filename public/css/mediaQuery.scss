@@ -818,9 +818,9 @@ $desktop: 1200px;
         }
       }
       .show-events {
-        //min-height: 50rem;
-        min-height: 212vh;
+        min-height: 145vh;
         margin-top: 0rem;
+        overflow-y: scroll;
       }
     }
     /*-----------Teams Section-------------*/
@@ -1078,9 +1078,9 @@ $desktop: 1200px;
         }
       }
       .show-events {
-        // min-height: 50rem;
-        min-height: 212vh;
+        min-height: 145vh;
         margin-top: 0rem;
+        overflow-y: scroll;
       }
     }
     /*-----------Teams Section-------------*/
