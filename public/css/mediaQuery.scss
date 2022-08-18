@@ -145,9 +145,14 @@ $desktop: 1200px;
                 top: calc(50% - 3rem);
               }
             }
-            .about-section-title{
-              h2:after {
-                left: 61%;
+            .d-flex{
+              .about-section-title{
+                h2{
+                  font-size: 1.75rem;
+                }
+                h2:after {
+                  left: 61%;
+                }
               }
             }
           }
@@ -353,9 +358,14 @@ $desktop: 1200px;
                 top: calc(50% - 3rem);
               }
             }
-            .about-section-title{
-              h2:after {
-                left: 61%;
+            .d-flex{
+              .about-section-title{
+                h2{
+                  font-size: 1.75rem;
+                }
+                h2:after {
+                  left: 61%;
+                }
               }
             }
           }
@@ -539,6 +549,16 @@ $desktop: 1200px;
               .play-btn{
                 left: calc(50% - 5rem);
                 top: calc(50% - 5rem);
+              }
+            }
+            .d-flex{
+              .about-section-title{
+                h2{
+                  font-size: 2rem;
+                }
+                h2:after {
+                  left: 50%;
+                }
               }
             }
           }
@@ -760,6 +780,16 @@ $desktop: 1200px;
               .play-btn{
                 left: calc(50% - 3rem);
                 top: calc(50% - 7rem);
+              }
+            }
+            .d-flex{
+              .about-section-title{
+                h2{
+                  font-size: 2rem;
+                }
+                h2:after {
+                  left: 50%;
+                }
               }
             }
           }
@@ -999,6 +1029,16 @@ $desktop: 1200px;
               .play-btn{
                 left: calc(50% - 4rem);
                 top: calc(50% - 7rem);
+              }
+            }
+            .d-flex{
+              .about-section-title{
+                h2{
+                  font-size: 2rem;
+                }
+                h2:after {
+                  left: 50%;
+                }
               }
             }
           }
